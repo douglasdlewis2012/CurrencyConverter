@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.douglaslewis.currencyconverter.myviews.dialogs.CurrencyGraphView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:graph="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linegraph"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    graph:labelTextSize="14sp"
+    graph:labelTextColor="@color/colorPrimary"
+    graph:labelSeparation="5dp"
+    graph:axisThickness="2dp"
+    graph:gridThickness="1dp"
+    graph:dataThickness="1dp"
+    graph:axisColor="@color/colorBlack"
+    graph:gridColor="@color/secondaryText"
+    graph:dataColor="@color/colorAccent"
+   />
+
+    <!--xmlns:app="http://schemas.android.com/tools"-->
+
+    <!--app:layout_widthPercent="50%"-->

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setEUR(java.math.BigDecimal EUR)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setZAR(java.math.BigDecimal ZAR)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getZAR()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setTRY(java.math.BigDecimal TRY)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getTRY()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setTHB(java.math.BigDecimal THB)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getTHB()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setSGD(java.math.BigDecimal SGD)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getSGD()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setSEK(java.math.BigDecimal SEK)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getSEK()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setRUB(java.math.BigDecimal RUB)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getRUB()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setRON(java.math.BigDecimal RON)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getRON()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setPLN(java.math.BigDecimal PLN)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getPLN()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setPHP(java.math.BigDecimal PHP)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getPHP()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setNZD(java.math.BigDecimal NZD)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getNZD()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setNOK(java.math.BigDecimal NOK)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getNOK()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setMYR(java.math.BigDecimal MYR)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getMYR()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setMXN(java.math.BigDecimal MXN)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getMXN()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setKRW(java.math.BigDecimal KRW)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getKRW()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setJPY(java.math.BigDecimal JPY)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setINR(java.math.BigDecimal INR)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getINR()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setILS(java.math.BigDecimal ILS)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getILS()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setIDR(java.math.BigDecimal IDR)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getIDR()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setHUF(java.math.BigDecimal HUF)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getHUF()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setHRK(java.math.BigDecimal HRK)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getHRK()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setHKD(java.math.BigDecimal HKD)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getHKD()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setGBP(java.math.BigDecimal GBP)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setDKK(java.math.BigDecimal DKK)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getDKK()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setCZK(java.math.BigDecimal CZK)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getCZK()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setCNY(java.math.BigDecimal CNY)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getCNY()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setCHF(java.math.BigDecimal CHF)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getCHF()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setCAD(java.math.BigDecimal CAD)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getCAD()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setBRL(java.math.BigDecimal BRL)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setBGN(java.math.BigDecimal BGN)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getBGN()" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates void setAUD(java.math.BigDecimal AUD)" />
+      <entry_point TYPE="method" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates java.math.BigDecimal getAUD()" />
+      <entry_point TYPE="class" FQNAME="com.douglaslewis.currencyconverter.CurrencyAPI.Rates" />
+    </entry_points>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="4">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="4">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="canel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="numpicker_header_text">Currency Amount</string>
+    <string name="default_amount">0.00</string>
+    <string name="country_flag_image">country flag</string>
+
+    <string-array name="country_codes">
+        <item>@array/EUR</item>
+        <item>@array/GBP</item>
+        <item>@array/USD</item>
+        <item>@array/BRL</item>
+        <item>@array/JPY</item>
+    </string-array>
+
+    <string-array name="EUR">
+        <item name="symbol">€</item>
+        <item name="name">Europe</item>
+        <item name="flag">@drawable/flag_of_europe</item>
+        <item name="code">EUR</item>
+    </string-array>
+
+    <string-array name="GBP">
+        <item name="symbol">£</item>
+        <item name="name">Great Britain</item>
+        <item name="flag">@drawable/flag_of_the_united_kingdom</item>
+        <item name="code">GBP</item>
+
+    </string-array>
+
+    <string-array name="USD">
+        <item name="symbol">$</item>
+        <item name="name">United States</item>
+        <item name="flag">@drawable/flagoftheunitedstates</item>
+        <item name="code">USD</item>
+
+    </string-array>
+
+    <string-array name="BRL">
+        <item name="symbol">R$</item>
+        <item name="name">Brazil</item>
+        <item name="flag">@drawable/flag_of_brazil</item>
+        <item name="code">BRL</item>
+
+    </string-array>
+
+    <string-array name="JPY">
+        <item name="symbol">¥</item>
+        <item name="name">Japan</item>
+        <item name="flag">@drawable/flag_of_japan</item>
+        <item name="code">JPY</item>
+
+    </string-array>
+
+</resources>

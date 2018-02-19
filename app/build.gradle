@@ -1,0 +1,91 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.douglaslewis.currencyconverter"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+
+}
+
+ext{
+    androidSupportLibaray = '23.3.0'
+    rxSupport = '1.1.0'
+    retrofitLibrary = '2.0.0'
+    leakLibrary = '1.3.1'
+    testRunnerLibrary = '0.4.1'
+    picassoLibrary = '2.5.2'
+    gsonLibrary = '2.6.1'
+    daggerLibrary = '2.2'
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    androidTestCompile 'junit:junit:4.12'
+
+
+    compile "com.android.support:appcompat-v7:${androidSupportLibaray}"
+    compile "com.android.support:design:${androidSupportLibaray}"
+    compile "com.android.support:cardview-v7:${androidSupportLibaray}"
+    compile "com.android.support:recyclerview-v7:${androidSupportLibaray}" //http://developer.android.com/tools/support-library/index.html#revisions
+    compile "com.android.support:design:${androidSupportLibaray}"
+    compile "com.android.support:support-v4:${androidSupportLibaray}"
+    // Force usage of support annotations in the test app, since it is internally used by the runner module.
+    androidTestCompile "com.android.support:support-annotations:${androidSupportLibaray}"
+
+
+    debugCompile "com.squareup.leakcanary:leakcanary-android:${leakLibrary}"
+    releaseCompile "com.squareup.leakcanary:leakcanary-android-no-op:${leakLibrary}"
+    testCompile "com.squareup.leakcanary:leakcanary-android-no-op:${leakLibrary}"
+
+
+    compile "com.squareup.retrofit2:retrofit:${retrofitLibrary}"
+    compile "com.squareup.retrofit2:adapter-rxjava:${retrofitLibrary}"
+    compile "com.squareup.retrofit2:converter-gson:${retrofitLibrary}"
+
+    compile 'com.jakewharton.timber:timber:4.0.1'
+
+    compile "io.reactivex:rxjava:${rxSupport}"
+    compile "io.reactivex:rxandroid:${rxSupport}"
+    compile "com.google.code.gson:gson:${gsonLibrary}"
+
+
+
+    compile "com.squareup.picasso:picasso:${picassoLibrary}"
+
+    provided 'javax.annotation:jsr250-api:1.0'
+
+    compile 'com.jakewharton:butterknife:8.0.1'
+    apt 'com.jakewharton:butterknife-compiler:8.0.1'
+
+
+    compile 'org.greenrobot:eventbus:3.0.0'
+
+
+
+    androidTestCompile "com.android.support.test:runner:${testRunnerLibrary}"
+    androidTestCompile "com.android.support.test:rules:${testRunnerLibrary}"
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.douglaslewis.currencyconverter.myviews.CountryViewCard xmlns:tools="http://schemas.android.com/tools"
+                                                            android:id="@+id/country_card"
+                                                            xmlns:android="http://schemas.android.com/apk/res/android"
+                                                            xmlns:apt="http://schemas.android.com/apk/res-auto"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:elevation="2dp"
+
+                                                            android:orientation="vertical"
+                                                            apt:cardCornerRadius="6dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorBlack"
+
+        android:weightSum="1.0">
+
+
+        <ImageView
+            android:id="@+id/flag_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".2"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:contentDescription="@string/country_flag_image"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="1.0"
+            >
+
+            <com.douglaslewis.currencyconverter.myviews.HugeTextView
+                android:id="@+id/converted_amount"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".7"
+                android:text="@string/default_amount"
+                android:textSize="30sp"
+                tools:ignore="NestedWeights"/>
+
+            <com.douglaslewis.currencyconverter.myviews.HugeTextView
+                android:id="@+id/conversion_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight=".3"
+                android:textColor="@color/hugeGray"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</com.douglaslewis.currencyconverter.myviews.CountryViewCard>

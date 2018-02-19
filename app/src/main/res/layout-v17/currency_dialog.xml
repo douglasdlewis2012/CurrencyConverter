@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:id="@+id/dialog_currency"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+
+    <com.douglaslewis.currencyconverter.myviews.HugeTextView
+        android:id="@+id/converted_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numpicker_header_text"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <com.douglaslewis.currencyconverter.myviews.dialogs.CurrencyAmountNumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorBlack"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@color/colorBlack"
+
+            android:layout_weight=".5"
+            android:text="@string/canel"
+            />
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:focusable="true"
+            android:textColor="@color/colorBlack"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/confirm"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

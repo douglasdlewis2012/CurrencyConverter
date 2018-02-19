@@ -1,0 +1,27 @@
+[INFO] Running command /usr/local/bin/infer -- ./gradlew build
+[INFO] Path to infer script /usr/local/bin/infer (/usr/local/Cellar/infer/0.6.0/libexec/infer/lib/python/infer)
+[INFO] Infer version v0.6.0
+Copyright 2009 - present Facebook. All Rights Reserved.
+
+
+[INFO] Platform: Darwin-14.5.0-x86_64-i386-64bit
+[INFO] PATH=/Users/boblivingston/Peeble-dev/PebbleSDK-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/boblivingston/Library/Android/sdk/platform-tools:/Users/boblivingston/Library/Android/sdk/tools
+[INFO] SHELL=/bin/bash
+[INFO] PWD=/Users/boblivingston/AndroidStudioProjects/CurrencyConverter
+[INFO] Running with:
+
+------------------------------------------------------------
+Gradle 2.10
+------------------------------------------------------------
+
+Build time:   2015-12-21 21:15:04 UTC
+Build number: none
+Revision:     276bdcded730f53aa8c11b479986aafa58e124a6
+
+Groovy:       2.4.4
+Ant:          Apache Ant(TM) version 1.9.3 compiled on December 23 2013
+JVM:          1.8.0_40 (Oracle Corporation 25.40-b25)
+OS:           Mac OS X 10.10.5 x86_64
+
+
+[ERROR] Error during capture phase, exiting
